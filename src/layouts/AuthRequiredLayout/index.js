@@ -19,19 +19,19 @@ class AuthRequiredLayout extends Component {
     children: PropTypes.any
   }
 
-  constructor(props) {
-    super(props)
-    props.dispatch({
-      type: 'users/initCurrentUser'
-    })
-  }
+  // constructor(props) {
+  //   super(props)
+  //   props.dispatch({
+  //     type: 'users/initCurrentUser'
+  //   })
+  // }
 
   render() {
-    const { children, currentUser } = this.props
+    const { children } = this.props
 
-    if (!currentUser) {
-      return null
-    }
+    // if (!currentUser) {
+    //   return null
+    // }
 
     destoryGlobalSpinner()
 

@@ -4,6 +4,8 @@
   "description": "Scaffold for umi based project",
   "scripts": {
     "start": "umi dev",
+    "test": "jest",
+    "test_cov": "jest --coverage",
     "build": "umi build",
     "serve": "node ./server/index.js"
   },

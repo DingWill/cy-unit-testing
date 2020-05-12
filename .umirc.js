@@ -1,4 +1,3 @@
-
 export default {
   hash: true,
   theme: './src/themes/index.js',
